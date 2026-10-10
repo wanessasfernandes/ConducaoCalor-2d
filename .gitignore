@@ -1,0 +1,24 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Cache e arquivos compilados do Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Cobertura de testes
+.coverage
+.coverage.*
+htmlcov/
+
+# Arquivos locais e temporários
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+Thumbs.db
+.DS_Store
